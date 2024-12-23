@@ -1,0 +1,118 @@
+/* Reset de estilos */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+#hero-section {
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center/cover;
+    color: #812a2a;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #531010;
+    color: #e2d3d3;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Seções genéricas */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+#services-section {
+    background-color: #ee5d5d;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    flex: 1 1 calc(33.333% - 20px);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Location Section */
+#location-section {
+    background-color: #b32f2f;
+}
+
+.location-info {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.map-button {
+    padding: 10px 20px;
+    background-color: #ce8e8e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Emergency Section */
+#emergency-section {
+    background-color: #f9f9f9;
+}
+
+.emergency-phone a {
+    color: #e5ff00;
+    text-decoration: none;
+}
+
+/* Footer */
+#footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
